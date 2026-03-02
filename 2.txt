@@ -1,0 +1,21 @@
+🏠 When You're Working Alone
+
+If you're the only developer:
+
+👉 You don't need to pull first
+👉 You don't need to merge main into feature
+👉 Everything will work fine
+
+🏢 When Working in a Team
+
+Before merging feature → main, we make sure:
+
+main is updated from GitHub
+
+Feature branch includes latest main changes
+
+No conflicts
+
+Everything works
+
+That’s why we:
