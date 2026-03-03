@@ -1,0 +1,19 @@
+name: Simple Text Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: List files
+        run: ls -la
+
+      - name: Print file content
+        run: cat file1.txt
