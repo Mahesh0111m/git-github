@@ -16,4 +16,4 @@ jobs:
         run: ls -la
 
       - name: Print file content
-        run: cat file1.txt
+        run: cat 2.txt
